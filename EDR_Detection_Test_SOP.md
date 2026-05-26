@@ -161,7 +161,7 @@ Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Explorer" -Nam
 ```bash
 echo 'X5O!P%@AP[4\PZX54(P^)7CC)7}$EICAR-STANDARD-ANTIVIRUS-TEST-FILE!$H+H*' > /tmp/eicar.com
 sha256sum /tmp/eicar.com
-# 已知 MD5: 44d88612fea8a8f36de82e1278abb02f
+# 已知 MD5: 69630e4574ec6798239b091cda43dca0
 ```
 
 **預期偵測**：靜態特徵比對、hash 命中
